@@ -219,33 +219,33 @@
 		</nav>
 	</footer>
 	<script>
-		var foods = ["самсы","манты","шаурма","лагман"];
-		var food = foods[Math.floor(Math.random() * foods.length)];
-		//answer arrey- массив ответов
-		var answerArrey = [];
-		for (var i = 0; i < food.length; i++) {answerArrey[i] = " _ ";}
-		//remaining letters - оставшиеся буквы
-		var remaingletters = food.length;
-		// игровой цикл 
-		while (remaingletters > 0) {
-		//показываем состояние игры
-		alert(answerArrey.join(""));
-		// запрашиваем вариант ответа
-		var ans = prompt("Угадайте букву или нажмите на Отмена для выхода из игры");
-		if (ans === null){
-			break;
-		} else if(ans.length !==1){
-			alert("Пожалуйста, введите только одну букву");
-		} for (var j = 0; j < food.length; j++) {
-			if (food[j] === ans){
-				answerArrey[j] = ans;
-				remaingletters--;
-			}
+		// var foods = ["самсы","манты","шаурма","лагман"];
+		// var food = foods[Math.floor(Math.random() * foods.length)];
+		// //answer arrey- массив ответов
+		// var answerArrey = [];
+		// for (var i = 0; i < food.length; i++) {answerArrey[i] = " _ ";}
+		// //remaining letters - оставшиеся буквы
+		// var remaingletters = food.length;
+		// // игровой цикл 
+		// while (remaingletters > 0) {
+		// //показываем состояние игры
+		// alert(answerArrey.join(""));
+		// // запрашиваем вариант ответа
+		// var ans = prompt("Угадайте букву или нажмите на Отмена для выхода из игры");
+		// if (ans === null){
+		// 	break;
+		// } else if(ans.length !==1){
+		// 	alert("Пожалуйста, введите только одну букву");
+		// } for (var j = 0; j < food.length; j++) {
+		// 	if (food[j] === ans){
+		// 		answerArrey[j] = ans;
+		// 		remaingletters--;
+		// 	}
 		
-		}
-		}
-		alert(answerArrey.join(""))
-		alert("ну ок" + word);
+		// }
+		// }
+		// alert(answerArrey.join(""))
+		// alert("ну ок" + word);
 	</script>
 </body>
 </html>
