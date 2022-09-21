@@ -875,6 +875,30 @@ footer{
 	font-size: 25px;
 	margin-top: -20px;
 }
+.portfolio{
+	width: 1240px;
+    height: 800px;
+    background-color: #4B4F4D;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.human{
+	width: 400;
+    height: 400; 
+    background-color: #4B4F4D;
+    padding-top: 100px;
+    padding-left: 700px;
+}
+.description{
+	width: 400;
+    height: 400; 
+    background-color: #4B4F4D;
+    margin-top: -700px;
+
+}
+.MeIts{
+	font-size: 30px;
+}
 
 
 
